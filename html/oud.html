@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>موسيقاتي | منتجات فئة العود</title>
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+
+<header class="navbar">
+    <div class="logo-box">
+        <img src="../assets/image/logo.png" alt="شعار موسيقاتي">
+    </div>
+
+    <nav class="nav-links">
+        <a href="../index.html" data-i18n="home">الصفحة الرئيسية</a>
+        <a href="shop.html" data-i18n="shop">المتجر</a>
+        <a href="gifts.html" data-i18n="gifts">الهدايا</a>
+        <a href="offers.html" data-i18n="offers">العروض الخاصة</a>
+        <a href="about.html" data-i18n="about">من نحن</a>
+        <a href="contact.html" data-i18n="contact">تواصل معنا</a>
+    </nav>
+
+    <div class="site-tools">
+        <select id="languageSelect">
+            <option value="ar">AR</option>
+            <option value="en">EN</option>
+            <option value="fr">FR</option>
+            <option value="es">ES</option>
+        </select>
+        <button id="decreaseFont">A-</button>
+        <button id="increaseFont">A+</button>
+        <button id="themeToggle">🌙</button>
+        <button id="cartButton" class="cart-btn">🛒 <span id="cartCount" class="cart-count">0</span></button>
+    </div>
+</header>
+
+<main class="products-page">
+    <h1 data-i18n="oudPageTitle">منتجات فئة العود</h1>
+
+    <section class="products-wrapper">
+        <div class="product-card">
+            <img src="../assets/image/oud-product-1.png" alt="عود جوهرة الفن">
+            <h2 data-i18n="oud1">عود جوهرة الفن</h2>
+            <p data-i18n="oud1Price">السعر: 45 دينار</p>
+            <button class="add-to-cart" data-price="45" data-type="product" data-i18n="add">إضافة</button>
+        </div>
+
+        <div class="product-card">
+            <img src="../assets/image/oud-product-2.png" alt="عود سنباطي">
+            <h2 data-i18n="oud2">عود سنباطي</h2>
+            <p data-i18n="oud2Price">السعر: 65 دينار</p>
+            <button class="add-to-cart" data-price="65" data-type="product" data-i18n="add">إضافة</button>
+        </div>
+
+        <div class="product-card">
+            <img src="../assets/image/oud-product-3.png" alt="عود مصري">
+            <h2 data-i18n="oud3">عود مصري</h2>
+            <p data-i18n="oud3Price">السعر: 60 دينار</p>
+            <button class="add-to-cart" data-price="60" data-type="product" data-i18n="add">إضافة</button>
+        </div>
+    </section>
+
+    <p class="category-description" data-i18n="oudDescription">يقدم متجر موسيقاتي مجموعة من الأعواد الشرقية التي تجمع بين الشكل الجميل والصوت الأصيل</p>
+</main>
+
+<script src="../js/main.js"></script>
+</body>
+</html>
